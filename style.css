@@ -1,0 +1,243 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  user-select: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+  }
+.container {
+  background-image: url(./img/bg-stars-1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: #0b0e13;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.navbar,
+.registr {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input {
+  margin-right: 30px;
+  /* padding: 5px 20px; */
+  padding-left: 5px;
+  width: 55%;
+  height: 3vh;
+  border-radius: 4px;
+  background-color: #0b0e1382;
+  border: none;
+}
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  width: 30%;
+  height: 3vh;
+  background-color: #c60b11a4;
+  border: #0b0e13;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+a {
+  margin-left: 25px;
+  text-decoration: none;
+  display: inline-block;
+}
+span {
+  color: crimson;
+}
+.carusel {
+    margin-top: 100px;
+  margin-left: 15%;  
+  width: 70%;
+  height: 70vh;
+  position: relative;
+  background-color: red;
+}
+.carusel-fluid {
+    
+  width: 600px;
+  height: 280px;
+  position: absolute;
+  left: 14%;
+  top: 55%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+.slider {
+  display: inline-flex;
+  transition: 0.5s ease;
+}
+.slider-col {
+  width: 600px;
+  height: 280px;
+}
+.slider-col h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  margin: 10px 0;
+}
+.slider-col p {
+  color: #ddd;
+  font-size: 15px;
+  line-height: 25px;
+}
+.slider-col a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background: #f1f1f1;
+  font-size: 15px;
+  padding: 10px 35px;
+  border-radius: 30px;
+  margin-top: 25px;
+}
+.controller {
+  width: 1px;
+  height: 320px;
+  display: block;
+  background: #c0c0c0;
+  position: absolute;
+  top: 55%;
+  right: 50px;
+  transform: translateY(-50%);
+}
+#line1,
+#line2,
+#line3,
+#line4 {
+  height: 80px;
+  width: 10px;
+  cursor: pointer;
+  transform: translateX(-30%);
+  
+}
+#active {
+    width: 5px;
+    height: 80px;
+    border-radius: 10px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    transition: 0.5s ease;
+}
+.clothes {
+  width: 100%;
+  padding: 25px 100px;
+
+}
+.shop {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.tem {
+  /* width: 25%; */
+  margin-bottom: 60px;
+  position: relative;
+
+  /* width: 230px;
+  height: 250px; */
+}
+.wall {
+  width: 230px;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.5s;
+  position: relative;
+
+}
+/* .tem img:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+} */
+.option {
+  position: relative;
+}
+.tem h3 {
+  text-align: center;
+}
+
+.clothes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.clothes img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.womens {
+  width: 230px;
+  height: 280px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.womens img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.womens img:hover {
+  transform: scale(1.3);
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-left: 11px;
+  background-color: rgba(255, 0, 0, 0.664);
+  width: 271px;
+  height: 35px;
+  position: absolute;
+  bottom: -45px;
+  transition: 0.3s;
+  left: -35px;
+  color: white;
+}
+.womens:hover .input  {
+  position: absolute;
+  bottom: -0px;
+  
+  /* left: -35px; */
+}
+.input i {
+  margin-right: 5px;
+  font-size: 17px;
+  color: yellow;
+}
+.korzina {
+  width: 30%;
+  height: 4vh;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
